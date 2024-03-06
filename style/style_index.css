@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: aquamarine; /* couleur du fond pour la balise nav */
+}
+
+ul {
+    list-style-type: none; /* Supprime les points montrant chaque élément de la liste. */
+    margin: 0; /* Supprime les marges par défaut de la liste. */
+    padding: 0; /* Supprime l'espace vide d'un élément de la list ( l'espace avant l'élément). */
+    overflow: hidden; /* Cache tout contenu dépassant de la liste. */
+}
