@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: aquamarine; /* couleur du fond pour la balise nav */
+}
+
+ul {
+    list-style-type: none; /* Supprime les points montrant chaque élément de la liste. */
+    margin: 0; /* Supprime les marges par défaut de la liste. */
+    padding: 0; /* Supprime l'espace vide d'un élément de la list ( l'espace avant l'élément). */
+    overflow: hidden; /* Cache tout contenu dépassant de la liste. */
+}
+
+li {
+    float: left; /* Aligne les éléments de la liste vers la gauche à gauche, les alignant horizontalement. */
+}
+
+
+nav a {
+    display: block; /* définit un lien comme un bloc, avec un espace disponinble*/
+    color: black; /* change la couleur des liens, ici blanc */
+    text-align: center; /* Centre le texte à l'intérieur des liens. */
+    padding: 14px 16px; /* Ajoute un rembourrage intérieur aux liens pour améliorer l'apparence. */
+    text-decoration: none; /* Supprime le soulignement des liens. */
+    opacity: 0.7;
+}
+nav a:hover {
+    background-color: #ddd; /* Définit la couleur de fond lorsqu'un lien est survolé. */
+    color: black; /* Change la couleur du texte lorsqu'un lien est survolé. */
+    opacity: 1;
+    transition: opacity 1s ease 0s;
+}
