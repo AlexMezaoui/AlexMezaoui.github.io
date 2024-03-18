@@ -34,3 +34,12 @@ nav a:hover {
     opacity: 1;
     transition: opacity 1s ease 0s;
 }
+h1, p{
+    text-align: center;
+}
+/* .teste{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
