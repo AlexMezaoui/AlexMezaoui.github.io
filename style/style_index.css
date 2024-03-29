@@ -5,10 +5,14 @@ body {
 }
 
 nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: aquamarine; /* couleur du fond pour la balise nav */
 }
 
 ul {
+
     list-style-type: none; /* Supprime les points montrant chaque élément de la liste. */
     margin: 0; /* Supprime les marges par défaut de la liste. */
     padding: 0; /* Supprime l'espace vide d'un élément de la list ( l'espace avant l'élément). */
@@ -16,17 +20,12 @@ ul {
 }
 
 li {
+    
     float: left; /* Aligne les éléments de la liste vers la gauche à gauche, les alignant horizontalement. */
 }
 
 
 nav a {
-    display: block; /* définit un lien comme un bloc, avec un espace disponinble*/
-    color: black; /* change la couleur des liens, ici blanc */
-    text-align: center; /* Centre le texte à l'intérieur des liens. */
-    padding: 14px 16px; /* Ajoute un rembourrage intérieur aux liens pour améliorer l'apparence. */
-    text-decoration: none; /* Supprime le soulignement des liens. */
-    opacity: 0.7;
 }
 nav a:hover {
     background-color: #ddd; /* Définit la couleur de fond lorsqu'un lien est survolé. */
