@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    /*background-color: lightblue; */
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aquamarine; /* couleur du fond pour la balise nav */
+    /*background-color: aquamarine;  couleur du fond pour la balise nav */
 }
 
 ul {
