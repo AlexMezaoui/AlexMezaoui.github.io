@@ -8,9 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-slate-700">
     <nav>
-        <ul class="menu menu-horizontal bg-base-200 rounded-box lg:mb-64 menu-lg ">
+        <ul class="menu menu-horizontal bg-base-200 rounded-box  menu-lg lg:mb-24 ">
             <li><a href="index.html">Accueil</a></li>
             <li><a href="competences.html">Compétences</a></li>
             <li><a href="Formations.html">Formations</a></li>
@@ -18,41 +18,98 @@
             <li><a href="Experiences.html">Experience Professionnelle</a></li>
             <li><a href="stages.html">Mes stages</a></li>
             <li><a href="Documentation.html">Documentation</a></li>
-            <li><a href="contacts.html">Me contacter</a></li>
         </ul>
     </nav>
-    <h1 id="personnel">Projets Réalisés ( Pour l'épreuve E5 du BTS SIO)</h1>
-    <h2>Personnel</h2>
-    <hr>
-    <img src="console_personnel.png" />
-    <hr>    
-<p>Application Java, permettant de gérer des ligues sportives ainsi que les employés de ces ligues, pour la Maison des Ligues de Lorraine (ou M2L).</p>
-<p> MCD et scripts des tables/ contraintes de notre base de données, sous MySQL :</p>
-<img src ="MCD Personnel VRAI.png" /> <br>
-<img src ="scriptSQLPersonnel.png" /> <br>
-<img src ="contraintes_SQL_personnel.png" /> <br>
+    <div class="hero min-h-screen bg-slate-700">
+        <div class="hero-content text-neutral-content">
+            <div class="max-w-8xl">
+                <h1 class="text-5xl font-bold lg:mb-10 text-7xl">Projets Réalisés ( Pour l'épreuve E5 du BTS SIO)</h1>
+                    <div class ="text-4xl lg:mb-44">
+                            <h2 id="personnel" class ="text-5xl font-bold text-center lg:mb-10">Personnel</h2>
+                            <hr>
+                            <img src="console_personnel.png" />
+                            <hr>    
+                        <p>Application Java, permettant de gérer des ligues sportives ainsi que les employés de ces ligues, pour la Maison des Ligues de Lorraine (ou M2L). </p><br>
+                        <p class="lg:mb-20"> Voici le MCD, scripts des tables et contraintes de notre base de données, sous MySQL, du projet Personnel:</p>
+                        <div class="carousel w-full ">
+                            <div id="slide1" class="carousel-item relative flex justify-center items-center w-full">
+                              <img src="MCD Personnel VRAI.png"/>
+                              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide3" class="btn btn-circle">❮</a> 
+                                <a href="#slide2" class="btn btn-circle">❯</a>
+                              </div>
+                            </div>
+                            
+                            <div id="slide2" class="carousel-item relative flex justify-center items-center w-full">
+                                <img src="scriptSQLPersonnel.png" />
+                                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                  <a href="#slide1" class="btn btn-circle">❮</a> 
+                                  <a href="#slide3" class="btn btn-circle">❯</a>
+                                </div>
+                              </div> 
 
-<p> Ainsi,  cette application permettra de créer une ligue, un employé, et de les modifier ou supprimer à la guise de l'administrateur<br>
-    L'application possède également une interface graphique.
-</p>
+                              <div id="slide3" class="carousel-item relative flex justify-center items-center w-full">
+                                <img src="contraintes_SQL_personnel.png"  />
+                                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                  <a href="#slide2" class="btn btn-circle">❮</a> 
+                                  <a href="#slide1" class="btn btn-circle">❯</a>
+                                </div>
+                              </div> 
+                        
+                        </div>
+                    
 
-<p>Mon projet est trouvable sur mon répertoire github : <a href="https://github.com/BADLVX/personnel.git" target="_blank">Visitez mon réperoitre GitHub pour Personnel.</a></p>
-   
+                        <p> Ainsi,  cette application permettra de créer une ligue, un employé, et de les modifier ou supprimer à la guise de l'administrateur<br>
+                            L'application possède également une interface graphique.
+                        </p>
+                        <p>Cliquez-ici pour découvrir l'arbre heuristique de cette application JAVA !</p>
 
-<br>
+                        <p class="mb-5 text-2xl">Ce projet est trouvable sur github, pour le consulter: <a href="https://github.com/BADLVX/personnel.git" target ="_blank" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 
+                            dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Cliquez ici !</a></p>
+                        <p>Mon projet est trouvable sur mon répertoire github : <a href="https://github.com/BADLVX/personnel.git" target="_blank">Visitez mon réperoitre GitHub pour Personnel.</a></p>
+                    </div>    
+                    <div class ="text-4xl lg:mb-44">
+                        <br>
 
-    <h2 id="parking">Parking</h2>
-<p>Application web, réalisé avec le framework Laravel, dont l'objectif et de gérer les places de Parking de la M2L.</p>
-<p> Cette application permettra à un employé de la M2L, de réserver une place de parking, consulter ses anciennes réservations, ainsi qu'être placé en liste d'attente si toutes les places <br>
-    du parking sont occupés
-</p>
-<h3>MCD, et scripts des tables/contraintes du la base de données pour <P></P>arking</h3>
-<img src ="MCD_Parking.png" /> <br>
-<img src ="scriptSQLParking.png" /> <br>
-<img src ="contraintes_SQL_parking.png" /> <br>
+                            <h2 id="parking" class ="text-5xl font-bold text-center lg:mb-10">Parking</h2>
+                        <p>Application web, réalisé avec le framework Laravel, dont l'objectif et de gérer les places de Parking de la M2L.</p>
+                        <p> Cette application permettra à un employé de la M2L, de réserver une place de parking, consulter ses anciennes réservations, ainsi qu'être placé en liste d'attente si toutes les places 
+                            du parking sont occupés
+                        </p><br>
+                        <p class="lg:mb-20">Voici les :MCD, scripts des tables et contraintes de la base de données pour Parking </p>
+                        <div class="carousel w-full ">
+                            <div id="slide4" class="carousel-item relative flex justify-center items-center w-full">
+                              <img src="MCD_Parking.png"/>
+                              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide6" class="btn btn-circle">❮</a> 
+                                <a href="#slide5" class="btn btn-circle">❯</a>
+                              </div>
+                            </div>
+                            
+                            <div id="slide5" class="carousel-item relative flex justify-center items-center w-full">
+                                <img src="scriptSQLParking.png" />
+                                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                  <a href="#slide4" class="btn btn-circle">❮</a> 
+                                  <a href="#slide6" class="btn btn-circle">❯</a>
+                                </div>
+                              </div> 
 
+                              <div id="slide6" class="carousel-item relative flex justify-center items-center w-full">
+                                <img src="contraintes_SQL_parking.png"  />
+                                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                  <a href="#slide5" class="btn btn-circle">❮</a> 
+                                  <a href="#slide4" class="btn btn-circle">❯</a>
+                                </div>
+                              </div> 
+                        
+                        </div>
+                        <p class="mb-5 text-2xl">Ce projet est trouvable sur github, pour le consulter: <a href="https://github.com/BADLVX/Parking.git" target ="_blank" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 
+                            dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Cliquez ici !</a></p>
+                        
+                    </div>
 
-<p>Ce projet est consultable sur github, à l'adresse: <a href="https://github.com/BADLVX/Parking.git" target ="_blank">Visitez le répertoire GitHub du projet Parking !</a></p>
-
+            </div>
+        </div>
+    </div>
 </body>
 </html>

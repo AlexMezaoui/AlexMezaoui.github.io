@@ -8,11 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-slate-700">
     <nav>
-        <ul class="menu menu-horizontal bg-base-200 rounded-box lg:mb-64 menu-lg ">
+        <ul class="menu menu-horizontal bg-base-200 rounded-box  menu-lg ">
             <li><a href="index.html">Accueil</a></li>
-            <li><a href="competences.html">Compétences</a></li>
             <li><a href="Formations.html">Formations</a></li>
             <li><a href="Projets.html">Projets</a></li>
             <li><a href="veille.html">Veille Technologique</a></li>
@@ -21,23 +20,38 @@
             <li><a href="contacts.html">Me contacter</a></li>
         </ul>
     </nav>
-    <h1>Compétences</h1>
-    <p> 
-        <h2>Informatique</h2>
-        <ul>
-            <li><strong>Codage:</strong>PHP, PHP Objet, JAVA, C, Python, SQL</li>
-            <li><strong>Base de Données:</strong>SGBD ACCESS et MySQL</li>
-            <li><strong>Conception de S.I :</strong>Méthode MERISE et MERISE2, MCD étendu...</li>
-            <li><strong>Editions :</strong>Word, Excel, PowerPoint (Windows 10)</li>
-            <li><strong>Réseaux :</strong>TCP-IP, DHCP, HTTP, Modèle OSI</li>
-            <li><strong>Notions de cybersécurité :</strong> RGPD, CNIL</li>
-        </ul>
-
-        <h2>Linguistiques</h2>
-        <ul>
-            <li>Anglais, Niveau B2 ( TOEIC: 945 Point)</li>
-            <li>Espagnole, Niveau A2</li>
-        </ul>
-    </p>
+    
+    <div class="hero min-h-screen bg-slate-700">
+        <div class="hero-content text-neutral-content">
+            <div class="max-w-8xl">
+                <h1 class="text-5xl font-bold lg:mb-10 text-7xl">Compétences</h1>
+                <p class="text-4xl lg:mb-44">  Cette page présente les compétences acquises et travaillées durant mes durant mes cours de BTS, ainsi qu'en entreprise durant mes stages.</p>
+                <div class="grid grid-cols-2 gap-8">
+                    <div>
+                        <h2 class="text-5xl font-bold text-center lg:mb-10">Informatiques</h2>
+                        <ul class="text-xl list-disc list inside">
+                            <li><strong>SGBD:</strong> ACCESS et MySQL</li>
+                            <li><strong>Conception de S.I :</strong> Méthode MERISE et MERISE2, MCD étendu</li>
+                            <li><strong>Langages de programmation:</strong> PHP (Framework Laravel), JAVA, C, Python</li>
+                            <li><strong>Base de Données:</strong> SQL</li>
+                            <li><strong>Langages web:</strong> HTML, CSS (framework TailwindCss)</li>
+                            <li><strong>Editions :</strong> Word, Excel, PowerPoint (Windows 10)</li>
+                            <li><strong>Conteneurisation :</strong> Docker</li>
+                            <li><strong>Versionnement :</strong> GitHub</li>
+                            <li><strong>Notions de cybersécurité :</strong> RGPD, CNIL</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="text-5xl font-bold text-center lg:mb-10">Linguistiques</h2>
+                        <ul class="text-xl list-disc list inside">
+                            <li><strong>Anglais:</strong> Niveau B2 ( TOEIC: 945 Point) </li>
+                            <li><strong>Espagnole:</strong> Niveau A2</li>
+                            <li><strong>Français:</strong>Certification Voltaire</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

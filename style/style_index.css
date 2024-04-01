@@ -19,10 +19,6 @@ ul {
     overflow: hidden; /* Cache tout contenu dépassant de la liste. */
 }
 
-li {
-    
-    float: left; /* Aligne les éléments de la liste vers la gauche à gauche, les alignant horizontalement. */
-}
 
 
 nav a {
