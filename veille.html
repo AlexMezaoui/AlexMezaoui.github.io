@@ -8,9 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-slate-700">
     <nav>
-        <ul class="menu menu-horizontal bg-base-200 rounded-box lg:mb-64 menu-lg ">
+        <ul class="menu menu-horizontal bg-base-200 lg:mb-16 rounded-box  menu-lg ">
             <li><a href="index.html">Accueil</a></li>
             <li><a href="competences.html">Compétences</a></li>
             <li><a href="Formations.html">Formations</a></li>
@@ -20,43 +20,59 @@
             <li><a href="Documentation.html">Documentation</a></li>
             <li><a href="contacts.html">Me contacter</a></li>
         </ul>
-    </nav>
-    <h1><strong>Linux Asahi</strong></h1>
-        <p>Linux Asahi est un projet, regroupant une communauté et ayant pour objectif de porter Linux sur les Macs Apple Silicon.<br>
+    </nav> 
+    <div class="hero min-h-screen bg-slate-700">
+        <div class="hero-content text-neutral-content">
+            <div class="max-w-8xl">
+                <h1 class="text-5xl font-bold lg:mb-10 text-7xl">Linux Asahi</h1>
+                <div class ="text-2xl">
+        <p class="lg:mb-32">Linux Asahi est un projet ayant pour objectif de porter Linux sur les Macs Apple Silicon, et regroupe ainsi une communauté de développeur linux et MacOS.<br>
            Leur Objectif est de le peaufiner au point qu'il puisse être utilisé comme système d'exploitation quotidien. <br>
            D'autant plus que Apple Silicon était une plateforme entièrement non documentée,ce qui ajoute un travail considérable : <br>
            arriver à coder, de zéro, Linux sur les puces Macs Apple Silicon.</p>
 
-    <h1>Outils de ma Veille Technologique</h1>
-        <h2>Google Alerts ! ( méthode PUSH )</h2>
-            <p>Un outil de la veille technologique a pour utilité de collecter et exploiter un ensemble d’informations. Cet efficacité repose sur plusieurs points:<br>
-               la maîtrise des sources ainsi que l'analyse des données sont des points essentiels pour toute personne ou entreprise voulant se faire une place dans le monde <br>
-               de l'informatique, il est donc important de savoir saisir une opportunité quand elle se présente !<br>
-               Et pour cela j'ai choisi Google Alerts , en entrant les mots clés précis, portant sur les sujets que je veux suivre,<br>
-               puis en sélectionnant les résultats(blogs, articles,..), il m'est facile de suivre cette avancée, grâce à cet outil qui est relié à mon email GMAIL.<br>
-               Il m'est alors facile d'accéder à mes résultats via mon téléphone à tout moment de la journée. Un outil de veille portable, sans pour autant perdre en efficacité !
-            <img src="linux_asahi_googlealerts.png" />
-            </p>
+
+
+        <h1 class="text-5xl font-bold lg:mb-10 text-5xl ">Outils de ma Veille Technologique</h1>
+        <h3 class ="underline lg:mb-10">Google Alerts ! ( méthode PUSH )</h2>
+            <div class="flex items-center lg:mb-32">
+                <img src="linux_asahi_googlealerts.png" class="w-4/12 h-4/12 mr-4" alt="Description de l'image">
+                <p>Un outil de la veille technologique a pour utilité de collecter et exploiter un ensemble d’informations. Cet efficacité repose sur plusieurs points:<br>
+                    la maîtrise des sources ainsi que l'analyse des données sont des points essentiels pour toute personne ou entreprise voulant se faire une place dans le monde <br>
+                    de l'informatique, il est donc important de savoir saisir une opportunité quand elle se présente !<br>
+                    Et pour cela j'ai choisi Google Alerts , en entrant les mots clés précis, portant sur les sujets que je veux suivre,<br>
+                    puis en sélectionnant les résultats(blogs, articles,..), il m'est facile de suivre cette avancée, grâce à cet outil qui est relié à mon email GMAIL.<br>
+                    Il m'est alors facile d'accéder à mes résultats via mon téléphone à tout moment de la journée. Un outil de veille portable, sans pour autant perdre en efficacité !</p>
+            </div>
+            
+           
         
-        <h2>GitHub ( méthode PULL)</h2>
-            <p> Et OUI ! Il est également possible de me renseigner à propos de Linux Asahi sur le GitHub officiel de ce projet, faisant office de wiki <br>
+        <h3 class ="underline lg:mb-10">GitHub ( méthode PULL)</h2>
+            <p class> Et OUI ! Il est également possible de me renseigner à propos de Linux Asahi sur le GitHub officiel de ce projet, faisant office de wiki <br>
                 Il est ainsi possible de suivre les notes de mise à jour "en direct", je dois aller chercher l'information, mais l'avantage majeur de cet outil est que <br>
                 je n'ai pas besoin d'attendre qu'une source secondaire ou tierce relaie l'information.<br>
                 <a href="https://github.com/AsahiLinux/docs/wiki">GitHub du Wiki de la documentation Officielle de Linux Asahi !</a>
             </p>
-            <img src="LinuxAsakiGitHub.png" />
-        <h3>Voici la documentation de ma veille:<a href="Veille Technologique sur Linux Asahi.pdf" target="_blank">Linux Asahi, une veille révolutionaire ?</a></h3>
-        <ul>
-            <li>Pourquoi la distribution Linux Asahi a-t-elle été créée ?</li>
-            <p>Cela a été fait pour offrir aux uƟlisateurs des Macs Apple Silicon une alternaƟve à
-                macOS et leur permeƩre d'uƟliser Linux comme système d'exploitaƟon principal.
+            <p class="mb-5 text-2xl">GitHub du Wiki de la documentation Officielle de Linux Asahi ! :   <a href="https://github.com/AsahiLinux/docs/wiki    " target ="_blank" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 
+                dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Cliquez ici !</a></p>
+
+
+            <div class="flex justify-center lg:mb-32 ">
+                <img class="w-7/12 h-7/12" src="LinuxAsakiGitHub.png" alt="Description de l'image">
+            </div>
+        <h2>Dans le cadre de l'épreuve E4 du portfolio, j'ai réalisé une documentation sur ma veille "Linux Asahi", en spécifiant ce que j'avais appris, ainsi 
+            que les méthodes utilisées pour y arriver, la voici :<a href="Veille Technologique sur Linux Asahi.pdf" target="_blank">Linux Asahi, une veille révolutionaire ?</a></h3>
+        <ul class="text-xl list-disc list inside">
+            <li class="text-2   xl font-bold text-center lg:mb-5 mt-20">Pourquoi la distribution Linux Asahi a-t-elle été créée ?</li>
+            <p>Elle a été penséc  pour offrir aux utylisateurs des Macs Apple Silicon une alternaƟve à
+                macOS et leur permettre d'utliser Linux comme système d'exploitation principal.
                 Répondre à un besoin : Les processeurs Apple Silicon présentent des spécificités
-                uniques qui nécessitent une distribuƟon Linux adaptée, MacOS, bien que performant peut
+                uniques qui nécessitent une distribution Linux adaptée, MacOS, bien que performant peut
                 présenter des limites pour certains uƟlisateurs, Linux Asahi répond à ces besoins spécifiques
-                (flexibilité et possibilités de personnalisaƟon, logiciels spécifiques à Linux, une communauté
-                acƟve).
+                (flexibilité et possibilités de personnalisaƟon, logiciels spécifiques à Linux, une communautéw
+                active).
                 </p>
-            <li>Caractéristiques de Linux Asah</li>
+            <li class="text-2xl font-bold text-center lg:mb-5 mt-20">Caractéristiques de Linux Asahi</li>
             <p>Compatible avec le matériel des Mac équipés de processeurs Apple Silicon. Il prend en
                 charge les fonctionnalités spécifiques des Mac, telles que la gestion de l'énergie et du
                 Trackpad.
@@ -65,7 +81,11 @@
                 logiciel riche (développement, design, compilateur, éditeur de code, etc…). L’expérience
                 utilisateur est comparée à celle de macOS. </p>
         </ul>
-        <h1> Quelle est la dernière chose apprise avec cette veille ?</h1>
+        <h1 class="text-2xl font-bold text-center lg:mb-5 mt-20"> Quelle est la dernière chose apprise avec cette veille ?</h1>
             <p> L'equipe de développement travaille sur le portage de la distribution Asahi, sur les puces Apple Silicone M3</p>
+        </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
